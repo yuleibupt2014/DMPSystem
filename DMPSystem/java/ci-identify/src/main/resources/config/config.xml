@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<property-set>
+<!--
+    运营商.省份.网络类型
+    运营商：dxy/dx/yd/lt
+    省份：beijing/jiangsu/shanghai 等
+    网络类型：adsl/mobile
+-->
+<property key="lt.jiangsu.mobile" type="string">lt/jiangsu/mobile/config.xml</property>
+
+<property key="dxy.anhui.mobile" type="string">dxy/mobile/config.xml</property>
+<property key="dxy.beijing.mobile" type="string">dxy/mobile/config.xml</property>
+<property key="dxy.fujian.mobile" type="string">dxy/mobile/config.xml</property>
+<property key="dxy.hainan.mobile" type="string">dxy/mobile/config.xml</property>
+<property key="dxy.hubei.mobile" type="string">dxy/mobile/config.xml</property>
+<property key="dxy.liaoning.mobile" type="string">dxy/mobile/config.xml</property>
+<property key="dxy.ningxia.mobile" type="string">dxy/mobile/config.xml</property>
+<property key="dxy.xinjiang.mobile" type="string">dxy/mobile/config.xml</property>
+<property key="dxy.xizang.mobile" type="string">dxy/mobile/config.xml</property>
+
+<property key="yd.zhejiang.mobile" type="string">yd/zhejiang/mobile/config.xml</property>
+
+<property key="dev.dev.mobile" type="string">dev/config.xml</property>
+<property key="dev.dev.adsl" type="string">dev/config.xml</property>
+
+</property-set>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<property-set>
+    <!--每个小时数据需要的reduce数量-->
+    <property key="per.hour.data.reduce.count" type="int">20</property>
+
+    <!--由于资源紧缺，设置每小时最大处理50个文件-->
+    <!--
+    <property key="per.hour.data.handle.max.files" type="string">50</property>
+      -->
+    <!--是否生成DPI样例数据-->
+    <property key="is.output.dpi.example.data" type="boolean">true</property>
+
+    <!-- 输入数据字段分隔符 -->
+    <!--
+    <property key="data.input.field.separator" type="string">\u0001</property>
+    -->
+    <!-- 输入数据字段定义 -->
+    <property key="data.input.field" type="string">s_phone_no=0,s_lac=1,s_ci=2,s_imei=3,s_flow_type_id=4,s_start_time=5,s_end_time=6,s_duration=7,s_up_flow=8,s_down_flow=9,s_total_flow=10,s_rat_type=11,s_src_ip=12,s_dest_ip=13,s_http_status=14,s_ua=15,s_apn_id=16,s_imsi=17,s_data_sgsn_ip=18,s_data_ggsn_ip=19,s_content_type=20,s_src_port=21,s_dest_port=22,s_mark_flag=23,s_union_cnt=24,s_app_id=25,s_app_type_id=26,s_siteid=27,s_site_category_id=28,s_cont_class_str=29,s_key_word_str=30,s_cont_class_flag=31,s_hot_word_flag=32,s_url=33,s_idfa=34</property>
+
+    <!-- 规则库相关配置 -->
+    <property key="rule.db.driverclass" type="string">com.mysql.jdbc.Driver</property>
+    <property key="rule.db.url" type="string">jdbc:mysql://10.1.3.4:3306/dmp_console</property>
+    <property key="rule.db.username" type="string">dmp_console</property>
+    <property key="rule.db.password" type="string">c15_abaVq</property>
+
+    <!--输入数据源的路径-->
+    <!--<property key="data.input.src.path" type="string">/DMP/dpi_encrypt_clear/</property>-->
+    <property key="data.input.src.path" type="string">/user/hive/warehouse/dmp_jslt.db/dmp_sca_dpi/</property>
+
+    <!-- 是否打印详细错误日志 -->
+    <property key="is.print.detail.err.log" type="boolean">true</property>
+
+    <!-- 从mysql规则库加载是否解密 -->
+    <property key="is.rule.db.encrypt" type="boolean">false</property>
+    <!-- 从hdfs规则库加载是否解密 -->
+    <property key="is.rule.hdfs.encrypt" type="boolean">true</property>
+
+    <!-- 从哪里加载规则库。 hdfs/mysql -->
+    <property key="rule.db" type="string">hdfs</property>
+    <!-- 是否将规则导入到hdfs -->
+    <property key="is.load.rule.from.mysql.to.hdfs" type="boolean">true</property>
+
+    <!--适配器-->
+    <property key="gs.project.adapter" type="string">com.ai.dmp.ci.identify.adapter.mobile.LtJiangsuMobileApapter</property>
+
+</property-set>

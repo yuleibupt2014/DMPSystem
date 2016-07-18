@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assembly>
+	<id>0.0.1-SNAPSHOT</id>
+	<formats>
+		<format>jar</format>
+	</formats>
+	<includeBaseDirectory>false</includeBaseDirectory>
+	<fileSets>
+		<fileSet>
+			<directory>ci-common/src/main/resources/config</directory>
+            <outputDirectory>config</outputDirectory>
+		</fileSet>
+		<fileSet>
+			<directory>ci-identify/src/main/resources/config</directory>
+            <outputDirectory>config</outputDirectory>
+		</fileSet>
+		<fileSet>
+			<directory>ci-common/target/classes/com</directory>
+            <outputDirectory>com</outputDirectory>
+		</fileSet>
+		<fileSet>
+			<directory>ci-identify/target/classes/com</directory>
+            <outputDirectory>com</outputDirectory>
+		</fileSet>
+		 <!-- 
+		<fileSet>
+			<directory>ci-identify/target/ci-identify-0.0.1-SNAPSHOT.jar/com</directory>
+            <outputDirectory>com</outputDirectory>
+		</fileSet>
+		 -->
+		<!-- 
+		<fileSet>
+			<directory>ci-tools/target/classes/com</directory>
+            <outputDirectory>com</outputDirectory>
+		</fileSet>
+		 -->
+	</fileSets>
+	<moduleSets>
+		<moduleSet>
+			<binaries>
+				<outputDirectory>lib/</outputDirectory>
+				<unpack>false</unpack>
+				<dependencySets>
+					<dependencySet>
+						<outputDirectory>lib</outputDirectory>
+					</dependencySet>
+				</dependencySets>
+			</binaries>
+		</moduleSet>
+	</moduleSets>
+
+</assembly>

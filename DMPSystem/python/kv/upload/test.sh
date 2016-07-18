@@ -1,0 +1,1 @@
+cat test.dat|python mapper.py |awk '{print "dmp_m_uc_tags_bh\t"$1"\t"$2"\tdmp_m_uc_tags_bh\tbeijing"}'|python reducer.py 

@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+
+<!-- Put site-specific property overrides in this file. -->
+
+<configuration>
+	<!-- 
+	<property>
+    	<name>hive.exec.compress.output</name>
+    	<value>true</value>
+    </property>
+    <property>
+    	<name>mapreduce.map.output.compress</name>
+    	<value>true</value>
+    </property>
+    <property>
+    	<name>mapreduce.map.output.compress.codec</name>
+    	<value>org.apache.hadoop.io.compress.GzipCodec</value>
+    </property>
+    <property>
+    	<name>mapreduce.output.fileoutputformat.compress</name>
+    	<value>true</value>
+    </property>
+    <property>
+    	<name>mapreduce.output.fileoutputformat.compress.codec</name>
+    	<value>org.apache.hadoop.io.compress.GzipCodec</value>
+    </property>
+    <property>
+    	<name>mapreduce.output.fileoutputformat.compress.type</name>
+    	<value>BLOCK</value>
+    </property>
+    <property>
+    	<name>io.compression.codecs</name>
+    	<value>org.apache.hadoop.io.compress.GzipCodec</value>
+    </property>
+     -->
+    <property>
+    	<name>mapreduce.job.reduce.slowstart.completedmaps</name>
+    	<value>0.80</value>
+    </property>
+</configuration>

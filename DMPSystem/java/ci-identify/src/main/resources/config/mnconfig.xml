@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<property-set>
+    <!--是否开启监控-->
+    <property key="is.monitor.hour" type="boolean">true</property>
+
+    <!--数据源部分
+    dpi_1:  总记录数,该字段不需配置，程序中完成
+    dpi_2:  phone_no缺失数
+    dpi_3:  imei缺失数
+    dpi_4:  imsi缺失数
+    dpi_5:  url缺失数
+    dpi_6:  ua缺失数
+    dpi_7:  lac缺失数
+    dpi_8:  ci缺失数
+    -->
+    <property key="dpi_subid" type="string">dpi_2=s_phone_no,dpi_3=s_imei,dpi_4=s_imsi,dpi_5=s_url,dpi_6=s_ua,dpi_7=s_lac,dpi_8=s_ci</property>
+
+
+    <!--数据清洗部分
+    subid	dc_1: 清洗数             该字段不需配置，程序中完成
+    rule	1: 格式不合法  2: url不合法 3: phone_no为空   可能会增加
+    -->
+
+
+    <!--内容识别部分
+        1\行为标签识别
+        ci_tag_1: 清洗后记录数，      该字段不需配置，程序中完成
+        ci_tag_2: 行为识别记录数      该字段不需配置，程序中完成
+        ci_tag_3: 关键词识别记录数    该字段不需配置，程序中完成
+        ci_tag_4: app识别记录数
+        ci_tag_5: 商品识别记录数      该字段不需配置，程序中完成
+        ci_tag_6: 内容识别记录数      该字段不需配置，程序中完成
+        ci_tag_7: 位置标签识别记录数
+        ci_tag_8: ua unify识别记录数
+        ci_tag_9: 访问操作识别记录数  该字段不需配置，程序中完成
+    -->
+    <property key="ci_tag_subid" type="string">ci_tag_4=app_id,ci_tag_7=loc_id,ci_tag_8=ua_unify,ci_tag_10=site_id,ci_tag_11=device_model,ci_tag_12=device_type,ci_tag_13=device_os,ci_tag_14=device_browser</property>
+
+
+    <!--内容识别部分
+        2\用户id识别
+       ci_u_1: user_name识别记录数
+       ci_u_2: email识别记录数
+       ci_u_3: phone_no识别记录数
+       ci_u_4: imei识别记录数
+       ci_u_5: imsi识别记录数
+       ci_u_6: mac识别记录数
+       ci_u_7: idfa识别记录数
+       ci_u_8: android识别记录数
+ (可能会增加)
+    -->
+    <property key="ci_u_subid" type="string">ci_u_1=user_name,ci_u_2=email,ci_u_3=phone_no,ci_u_4=imei,ci_u_5=imsi,ci_u_6=mac,ci_u_7=idfa,ci_u_8=android_id</property>
+
+
+    <!--内容识别
+            3\行为标签识别规则
+            cont_action:内容行为识别规则    该字段不需配置，程序中完成
+            app:      app识别规则
+            loc:     位置识别规则
+            site:    站点识别规则
+        -->
+    <property key="ci_tag_r_subid" type="string">ci_tag_r_1</property>
+    <property key="ci_tag_r_ruletype" type="string">app=app_id_rule_id,loc=loc_id_rule_id,site=site_id_rule_id,device_model=device_model_rule_id,device_type=device_type_rule_id,device_os=device_os_rule_id,device_browser=device_browser_rule_id</property>
+
+    <!--内容识别
+    4\用户id识别规则
+        user_name: user_name识别规则
+        email:       email识别规则
+        phone_no:   phone_no识别规则
+        imei:         imei识别规则
+        mac:          mac识别规则
+        idfa:          idfa识别规则
+        android_id:   android_id识别规则
+    -->
+    <property key="ci_u_r_subid" type="string">ci_u_r_1</property>
+    <property key="ci_u_r_ruletype" type="string">user_name=user_name_rule_id,email=email_rule_id,phone_no=phone_no_rule_id,imei=imei_rule_id,imsi=imsi_rule_id,mac=mac_rule_id,idfa=idfa_rule_id,android_id=android_id_rule_id</property>
+
+</property-set>

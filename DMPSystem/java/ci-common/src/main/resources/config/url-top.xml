@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<domain>
+	<reference url="http://en.wikipedia.org/wiki/List_of_Internet_top-level_domains" />
+	<items type="top-level" desc="Generic top-level domains">
+		<item name="aero" desc="air-transport industry" />
+		<item name="asia" desc="Asia-Pacific region" />
+		<item name="biz" desc="business" />
+		<item name="cat" desc="Catalan" />
+		<item name="com" desc="commercial" />
+		<item name="coop" desc="cooperatives" />
+		<item name="info" desc="information" />
+		<item name="int" desc="international organizations" />
+		<item name="jobs" desc="companies" />
+		<item name="mobi" desc="mobile devices" />
+		<item name="museum" desc="museums" />
+		<item name="name" desc="individuals, by name" />
+		<item name="net" desc="network" />
+		<item name="org" desc="organization" />
+		<item name="pro" desc="professions" />
+		<item name="tel" desc="Internet communication services" />
+		<item name="travel" desc="travel and tourism industry related sites" />
+		<item name="xxx" desc="adult entertainment" />
+	</items>
+	<items type="top-level" desc="USA top-level domains">
+		<item name="edu" desc="educational" />
+		<item name="gov" desc="governmental" />
+		<item name="mil" desc="US military" />
+	</items>
+	<items type="country code" desc="Country code top-level domains">
+		<item name="ac" desc="Ascension Island" />
+		<item name="ad" desc="Andorra" />
+		<item name="ae" desc="United Arab Emirates" />
+		<item name="af" desc="Afghanistan" />
+		<item name="ag" desc="Antigua and Barbuda" />
+		<item name="ai" desc="Anguilla" />
+		<item name="al" desc="Albania" />
+		<item name="am" desc="Armenia" />
+		<item name="an" desc="Netherlands Antilles" />
+		<item name="ao" desc="Angola" />
+		<item name="aq" desc="Antarctica" />
+		<item name="ar" desc="Argentina" />
+		<item name="as" desc="American Samoa" />
+		<item name="at" desc="Austria" />
+		<item name="au" desc="Australia" />
+		<item name="aw" desc="Aruba" />
+		<item name="ax" desc="Åland" />
+		<item name="az" desc="Azerbaijan" />
+		<item name="ba" desc="Bosnia and Herzegovina" />
+		<item name="bb" desc="Barbados" />
+		<item name="bd" desc="Bangladesh" />
+		<item name="be" desc="Belgium" />
+		<item name="bf" desc="Burkina Faso" />
+		<item name="bg" desc="Bulgaria" />
+		<item name="bh" desc="Bahrain" />
+		<item name="bi" desc="Burundi" />
+		<item name="bj" desc="Benin" />
+		<item name="bm" desc="Bermuda" />
+		<item name="bn" desc="Brunei" />
+		<item name="bo" desc="Bolivia" />
+		<item name="br" desc="Brazil" />
+		<item name="bs" desc="Bahamas" />
+		<item name="bt" desc="Bhutan" />
+		<item name="bv" desc="Bouvet Island" />
+		<item name="bw" desc="Botswana" />
+		<item name="by" desc="Belarus" />
+		<item name="bz" desc="Belize" />
+		<item name="ca" desc="Canada" />
+		<item name="cc" desc="Cocos (Keeling) Islands" />
+		<item name="cd" desc="Democratic Republic of the Congo" />
+		<item name="cf" desc="Central African Republic" />
+		<item name="cg" desc="Republic of the Congo" />
+		<item name="ch" desc="Switzerland" />
+		<item name="ci" desc="Côte d'Ivoire" />
+		<item name="ck" desc="Cook Islands" />
+		<item name="cl" desc="Chile" />
+		<item name="cm" desc="Cameroon" />
+		<item name="cn" desc="People's Republic of China" />
+		<item name="co" desc="Colombia" />
+		<item name="cr" desc="Costa Rica" />
+		<item name="cs" desc="Czechoslovakia" />
+		<item name="cu" desc="Cuba" />
+		<item name="cv" desc="Cape Verde" />
+		<item name="cx" desc="Christmas Island" />
+		<item name="cy" desc="Cyprus" />
+		<item name="cz" desc="Czech Republic" />
+		<item name="dd" desc="East Germany" />
+		<item name="de" desc="Germany" />
+		<item name="dj" desc="Djibouti" />
+		<item name="dk" desc="Denmark" />
+		<item name="dm" desc="Dominica" />
+		<item name="do" desc="Dominican Republic" />
+		<item name="dz" desc="Algeria" />
+		<item name="ec" desc="Ecuador" />
+		<item name="ee" desc="Estonia" />
+		<item name="eg" desc="Egypt" />
+		<item name="eh" desc="Western Sahara" />
+		<item name="er" desc="Eritrea" />
+		<item name="es" desc="Spain" />
+		<item name="et" desc="Ethiopia" />
+		<item name="eu" desc="European Union" />
+		<item name="fi" desc="Finland" />
+		<item name="fj" desc="Fiji" />
+		<item name="fk" desc="Falkland Islands" />
+		<item name="fm" desc="Federated States of Micronesia" />
+		<item name="fo" desc="Faroe Islands" />
+		<item name="fr" desc="France" />
+		<item name="ga" desc="Gabon" />
+		<item name="gb" desc="United Kingdom" />
+		<item name="gd" desc="Grenada" />
+		<item name="ge" desc="Georgia" />
+		<item name="gf" desc="French Guiana" />
+		<item name="gg" desc="Guernsey" />
+		<item name="gh" desc="Ghana" />
+		<item name="gi" desc="Gibraltar" />
+		<item name="gl" desc="Greenland" />
+		<item name="gm" desc="The Gambia" />
+		<item name="gn" desc="Guinea" />
+		<item name="gp" desc="Guadeloupe" />
+		<item name="gq" desc="Equatorial Guinea" />
+		<item name="gr" desc="Greece" />
+		<item name="gs" desc="South Georgia and the South Sandwich Islands" />
+		<item name="gt" desc="Guatemala" />
+		<item name="gu" desc="Guam" />
+		<item name="gw" desc="Guinea-Bissau" />
+		<item name="gy" desc="Guyana" />
+		<item name="hk" desc="Hong Kong" />
+		<item name="hm" desc="Heard Island and McDonald Islands" />
+		<item name="hn" desc="Honduras" />
+		<item name="hr" desc="Croatia" />
+		<item name="ht" desc="Haiti" />
+		<item name="hu" desc="Hungary" />
+		<item name="id" desc="Indonesia" />
+		<item name="ie" desc="Republic of Ireland" />
+		<item name="" desc="Northern Ireland" />
+		<item name="il" desc="Israel" />
+		<item name="im" desc="Isle of Man" />
+		<item name="in" desc="India" />
+		<item name="io" desc="British Indian Ocean Territory" />
+		<item name="iq" desc="Iraq" />
+		<item name="ir" desc="Iran" />
+		<item name="is" desc="Iceland" />
+		<item name="it" desc="Italy" />
+		<item name="je" desc="Jersey" />
+		<item name="jm" desc="Jamaica" />
+		<item name="jo" desc="Jordan" />
+		<item name="jp" desc="Japan" />
+		<item name="ke" desc="Kenya" />
+		<item name="kg" desc="Kyrgyzstan" />
+		<item name="kh" desc="Cambodia" />
+		<item name="ki" desc="Kiribati" />
+		<item name="km" desc="Comoros" />
+		<item name="kn" desc="Saint Kitts and Nevis" />
+		<item name="kp" desc="Democratic People's Republic of Korea" />
+		<item name="kr" desc="Republic of Korea" />
+		<item name="kw" desc="Kuwait" />
+		<item name="ky" desc="Cayman Islands" />
+		<item name="kz" desc="Kazakhstan" />
+		<item name="la" desc="Laos" />
+		<item name="lb" desc="Lebanon" />
+		<item name="lc" desc="Saint Lucia" />
+		<item name="li" desc="Liechtenstein" />
+		<item name="lk" desc="Sri Lanka" />
+		<item name="lr" desc="Liberia" />
+		<item name="ls" desc="Lesotho" />
+		<item name="lt" desc="Lithuania" />
+		<item name="lu" desc="Luxembourg" />
+		<item name="lv" desc="Latvia" />
+		<item name="ly" desc="Libya" />
+		<item name="ma" desc="Morocco" />
+		<item name="mc" desc="Monaco" />
+		<item name="md" desc="Moldova" />
+		<item name="me" desc="Montenegro" />
+		<item name="mg" desc="Madagascar" />
+		<item name="mh" desc="Marshall Islands" />
+		<item name="mk" desc="Macedonia" />
+		<item name="ml" desc="Mali" />
+		<item name="mm" desc="Myanmar" />
+		<item name="mn" desc="Mongolia" />
+		<item name="mo" desc="Macau" />
+		<item name="mp" desc="Northern Mariana Islands" />
+		<item name="mq" desc="Martinique" />
+		<item name="mr" desc="Mauritania" />
+		<item name="ms" desc="Montserrat" />
+		<item name="mt" desc="Malta" />
+		<item name="mu" desc="Mauritius" />
+		<item name="mv" desc="Maldives" />
+		<item name="mw" desc="Malawi" />
+		<item name="mx" desc="Mexico" />
+		<item name="my" desc="Malaysia" />
+		<item name="mz" desc="Mozambique" />
+		<item name="na" desc="Namibia" />
+		<item name="nc" desc="New Caledonia" />
+		<item name="ne" desc="Niger" />
+		<item name="nf" desc="Norfolk Island" />
+		<item name="ng" desc="Nigeria" />
+		<item name="ni" desc="Nicaragua" />
+		<item name="nl" desc="Netherlands" />
+		<item name="no" desc="Norway" />
+		<item name="np" desc="Nepal" />
+		<item name="nr" desc="Nauru" />
+		<item name="nu" desc="Niue" />
+		<item name="nz" desc="New Zealand" />
+		<item name="om" desc="Oman" />
+		<item name="pa" desc="Panama" />
+		<item name="pe" desc="Peru" />
+		<item name="pf" desc="French Polynesia" />
+		<item name="pg" desc="Papua New Guinea" />
+		<item name="ph" desc="Philippines" />
+		<item name="pk" desc="Pakistan" />
+		<item name="pl" desc="Poland" />
+		<item name="pm" desc="Saint-Pierre and Miquelon" />
+		<item name="pn" desc="Pitcairn Islands" />
+		<item name="pr" desc="Puerto Rico" />
+		<item name="ps" desc="Palestinian territories" />
+		<item name="pt" desc="Portugal" />
+		<item name="pw" desc="Palau" />
+		<item name="py" desc="Paraguay" />
+		<item name="qa" desc="Qatar" />
+		<item name="re" desc="Réunion" />
+		<item name="ro" desc="Romania" />
+		<item name="rs" desc="Serbia" />
+		<item name="ru" desc="Russia" />
+		<item name="rw" desc="Rwanda" />
+		<item name="sa" desc="Saudi Arabia" />
+		<item name="sb" desc="Solomon Islands" />
+		<item name="sc" desc="Seychelles" />
+		<item name="sd" desc="Sudan" />
+		<item name="se" desc="Sweden" />
+		<item name="sg" desc="Singapore" />
+		<item name="sh" desc="Saint Helena" />
+		<item name="si" desc="Slovenia" />
+		<item name="sj" desc="SvalbardandJan MayenIslands" />
+		<item name="sk" desc="Slovakia" />
+		<item name="sl" desc="Sierra Leone" />
+		<item name="sm" desc="San Marino" />
+		<item name="sn" desc="Senegal" />
+		<item name="so" desc="Somalia" />
+		<item name="sr" desc="Suriname" />
+		<item name="ss" desc="South Sudan" />
+		<item name="st" desc="São Tomé and Príncipe" />
+		<item name="su" desc="Soviet Union" />
+		<item name="sv" desc="El Salvador" />
+		<item name="sy" desc="Syria" />
+		<item name="sz" desc="Swaziland" />
+		<item name="tc" desc="Turks and Caicos Islands" />
+		<item name="td" desc="Chad" />
+		<item name="tf" desc="French Southern and Antarctic Lands" />
+		<item name="tg" desc="Togo" />
+		<item name="th" desc="Thailand" />
+		<item name="tj" desc="Tajikistan" />
+		<item name="tk" desc="Tokelau" />
+		<item name="tl" desc="East Timor" />
+		<item name="tm" desc="Turkmenistan" />
+		<item name="tn" desc="Tunisia" />
+		<item name="to" desc="Tonga" />
+		<item name="tp" desc="East Timor" />
+		<item name="tr" desc="Turkey" />
+		<item name="tt" desc="Trinidad and Tobago" />
+		<item name="tv" desc="Tuvalu" />
+		<item name="tw" desc="Taiwan" />
+		<item name="tz" desc="Tanzania" />
+		<item name="ua" desc="Ukraine" />
+		<item name="ug" desc="Uganda" />
+		<item name="uk" desc="United Kingdom" />
+		<item name="us" desc="United States of America" />
+		<item name="uy" desc="Uruguay" />
+		<item name="uz" desc="Uzbekistan" />
+		<item name="va" desc="Vatican City" />
+		<item name="vc" desc="Saint Vincent and the Grenadines" />
+		<item name="ve" desc="Venezuela" />
+		<item name="vg" desc="British Virgin Islands" />
+		<item name="vi" desc="United States Virgin Islands" />
+		<item name="vn" desc="Vietnam" />
+		<item name="vu" desc="Vanuatu" />
+		<item name="wf" desc="Wallis and Futuna" />
+		<item name="ws" desc="Samoa" />
+		<item name="ye" desc="Yemen" />
+		<item name="yt" desc="Mayotte" />
+		<item name="yu" desc="Yugoslavia" />
+		<item name="za" desc="South Africa" />
+		<item name="zm" desc="Zambia" />
+		<item name="zw" desc="Zimbabwe" />
+	</items>
+	<items type="filter top-level" desc="">
+		<item domain="www.gov.cn" topdomain="cn"  desc="" />
+		<item domain="www.net.cn" topdomain="cn"  desc="" />
+	</items>
+</domain>
